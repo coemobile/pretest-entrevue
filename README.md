@@ -15,10 +15,10 @@ Ce petit exercice technique nous permettra de nous familiariser avec la façon d
 
 ## Aspects à prendre en considération
 
-Voici quelques points importants à prendre en compte lors de la réalisation de l'exercice.
+Voici quelques points importants à prendre en compte lors de la réalisation de l'exercice :
 
- - La solution proposée devrait être facile d'entretien, flexible et réutilisable ;
- - Une gestion appropriée des erreurs est un atout ;
+ - La solution proposée devrait être facile d'entretien, flexible et réutilisable;
+ - Une gestion appropriée des erreurs est un atout;
  - Respecter les bonnes pratiques du génie logiciel est un élément obligatoire.
 
 ## Technologie
@@ -27,7 +27,9 @@ Comme le but du travail proposé est d'apprendre comment vous travaillez, le cho
 
 ## Exercice : Les chansons les plus populaires
 
-L'exercice proposé consiste à réaliser un petit utilitaire en ligne de commande qui permettra d’afficher les chansons les plus populaires pour un artiste, en utilisant l'interface de services web fournie par _Spotify_ ([voir note de bas de page](#remise)). Vous pouvez utiliser l’identifiant d’artiste que vous voulez pour réaliser le travail (si vous n'en connaissez pas, vous pouvez utiliser le suivant : `1uNFoZAHBGtllmzznpCI3s`).
+L'exercice proposé consiste à réaliser un petit utilitaire en **ligne de commande** OU une **page Web** qui permettra d’afficher les chansons les plus populaires pour un artiste, en utilisant l'interface de services web fournie par _Spotify_ ([voir note de bas de page](#remise)). Vous pouvez utiliser l’identifiant d’artiste que vous voulez pour réaliser le travail (si vous n'en connaissez pas, vous pouvez utiliser le suivant : `1uNFoZAHBGtllmzznpCI3s`).
+
+Voici un exemple en ligne de commande :
 
 ![](http://i.imgur.com/IVF0HL9.png)
 
