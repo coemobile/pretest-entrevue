@@ -22,9 +22,6 @@ SONG_FORMAT = "%d) %s - %s\n"                                                #fi
                                                                         # third param is song title
 #Msg
 USAGE = "Usage: ruby app.rb <artistId> <countryCode> \nEx: ruby app.rb 0gxyHStUsqpMadRV0Di1Qt CA"
-ERROR_CONNECTION = "Connection error"
-ERROR_PARSING = "Parsing error"
-ERROR_DISPLAY = "An error occured while displaying the songs"
 
 # Main
 def main
@@ -54,8 +51,8 @@ def getTopTracks(artistId, country)
         url = sprintf(API_URL, artistId, country)
         resp = Net::HTTP.get_response(URI.parse(url)) # get_response takes an URI object
         data = resp.body
-    rescue
-        puts ERROR_CONNECTION
+    rescue Exception => e
+        puts e.message
     end
 end
 
@@ -63,14 +60,19 @@ end
 def parseResponse(data)
     begin
         parsedData = JSON.parse(data);
-    rescue
-        puts = ERROR_PARSING
+    rescue Exception => e
+        puts e.message
     end
 end
 
 # Display the songs
 def displaySongs(data)
     begin
+        #check if the response contains an error
+        if(data['error'])
+            return puts data['error']['message']
+        end
+
         tracks = data['tracks']
 
         # print the header with the main artist name
@@ -83,8 +85,8 @@ def displaySongs(data)
         # print each tracks
         count = 0
         tracks.each { |track| printf(SONG_FORMAT, count+=1,track['album']['name'], track['name']) }
-    rescue
-        puts ERROR_DISPLAY
+    rescue Exception  => e
+        puts e.message
     end
 end
 
