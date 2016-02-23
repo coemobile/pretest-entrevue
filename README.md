@@ -23,7 +23,7 @@ Voici quelques points importants à prendre en compte lors de la réalisation de
 
 ## Technologie
 
-Comme le but du travail proposé est d'apprendre comment vous travaillez, le choix du langage de programmation a peu d'importance. Cependant, comme l'offre de stage présente _Ruby On Rails_ comme étant une technologie essentielle du projet, écrire la solution en _Ruby_ est fortement recommandé.
+Comme le but du travail proposé est d'apprendre comment vous travaillez, le choix du langage de programmation a peu d'importance. Cependant, il est recommandé d'utiliser les technologies présentées dans l'offre de stage, car il s'agit fort probablement de l'environnement que vous rencontrerez dans votre milieu de travail.
 
 ## Exercice : Les chansons les plus populaires
 
