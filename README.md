@@ -29,7 +29,7 @@ Comme le but du travail proposé est d'apprendre comment vous travaillez, le cho
 
 L'exercice proposé consiste à réaliser un petit utilitaire en **ligne de commande** OU une **page Web** qui permettra d’afficher les chansons les plus populaires pour un artiste, en utilisant l'interface de services web fournie par _Spotify_ ([voir note de bas de page](#remise)). Vous pouvez utiliser l’identifiant d’artiste que vous voulez pour réaliser le travail (si vous n'en connaissez pas, vous pouvez utiliser le suivant : `1uNFoZAHBGtllmzznpCI3s`).
 
-Voici un exemple en ligne de commande :
+Voici un exemple en ligne de commande:
 
 ![](http://i.imgur.com/IVF0HL9.png)
 
